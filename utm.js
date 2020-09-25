@@ -1,4 +1,4 @@
-    <script type="text/javascript">
+
       
 document.addEventListener("DOMContentLoaded", function() {
  var hvost = window.location.search.substring(1);
@@ -13,5 +13,3 @@ document.addEventListener("DOMContentLoaded", function() {
   if (hvost!="") elements[i].src = newHref + hvost;
  }
 });
-                                    
-</script>
